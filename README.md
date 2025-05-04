@@ -1,34 +1,49 @@
-# codepath-prework
-# Prework - *CodePath Prework*
+# Prework - CodePath PreWork
 
 Submitted by: **Gunn Madan**
 
-**CodePath Prework** is an app that... [TODO] 
+**CodePath PreWork** is an app that displays a simple user interface consisting of three labels and a button. Users interact by tapping the button, which triggers a dynamic change of the background color to a randomly generated color. This interactive functionality enhances the user's visual experience and provides a simple demonstration of event-driven programming in iOS.
 
-Time spent: **30** minutes spent in total
+Time spent: **2** hours spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-- [ ] Users are see a screen with three labels and a button
-- [ ] Tapping the button changes the screen color to a random color
- 
+- [x] Users see a screen with three labels and a button
+- [x] Tapping the button changes the screen color to a random color
+
 ## Video Walkthrough
 
-Here is a reminder on how to embed Loom videos on GitHub. Feel free to remove this reminder once you upload your README. 
+Here's a Loom walkthrough video demonstrating the app functionality:
 
-[Guide]](https://www.youtube.com/watch?v=GA92eKlYio4) .
+[![Loom Walkthrough][https://www.loom.com/share/d90bd0a0ae914e3588accaa7ad376824?sid=c1cc7029-e400-4f20-9435-e8b54cfb7ff5]
 
 ## App Brainstorming (Step 4)
 
+### Favorite Apps and Features:
+
+- **Spotify**
+  - Personalized playlists
+  - Easy song-sharing options
+
+- **Pinterest**
+  - Image categorization through boards
+  - User-driven content recommendations
+
+- **Notion**
+  - Customizable page layouts
+  - Powerful integration features
+
+### App Idea:
+**StudyBuddy** is an innovative productivity app designed specifically for students. It combines features such as task management, personalized study timers (Pomodoro Technique), and a built-in peer accountability system. Students can organize tasks by class, set deadlines, and track progress visually. The app includes motivational notifications and allows students to connect with classmates for group accountability, creating shared study sessions and reminders to boost productivity and academic performance.
+
 ## Notes
 
-Describe any challenges encountered while building the app.
+One of the challenges encountered was connecting IBAction correctly due to mistakenly creating a referencing outlet instead of an action connection. After troubleshooting storyboard connections, the issue was resolved by removing the incorrect referencing outlet and properly reconnecting the button action.
 
 ## License
-
-    Copyright [yyyy] [name of copyright owner]
+Copyright [2025] [Gunn Madan]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
